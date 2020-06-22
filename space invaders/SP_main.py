@@ -1,4 +1,4 @@
-import pygame, random, math, time
+import pygame, random, math
 from pygame import mixer
 
 pygame.init()
@@ -96,8 +96,7 @@ kaboom = pygame.image.load('explosionIMG.png')
 def boom(x, y):
     screen.blit(kaboom, (x, y))
 
-#while startT[5] - time.gmtime()[5] >= 0:
-
+    
 # Game Loop
 player_stop = False
 run = True
